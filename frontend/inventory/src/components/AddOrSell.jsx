@@ -7,7 +7,7 @@ function AddOrSell() {
     const soldSubmit=()=>{
         const addQnt=parseInt(addRef.current.value);
         const soldQnt=parseInt(soldRef.current.value);
-
+        const code=codeRef.current.value;
         const obj={
             code,
             "qnt":soldQnt
